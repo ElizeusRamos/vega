@@ -43,5 +43,3 @@ dependências annotations e validations:
 Api gerada é uma interface com os annotations necessários nas requisições rest, podemos implementar seus métodos em um controller, e faremos isto no diretório controller criado anteriormente.
 
 
----
-# Como utilizar o projeto
