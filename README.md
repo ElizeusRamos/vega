@@ -6,11 +6,12 @@ Esta api consome dados da api externa PokeApi
 
 # Tecnologias e ferramentas utilizadas no projeto
 - Java 11
+- Maven vs 3.8.4 https://maven.apache.org/download.cgi
 - Swagger (codegen) https://swagger.io/docs/open-source-tools/swagger-codegen/
 - Springboot https://start.spring.io/ para criação do projeto base
-- Webflux
-- Estruturação Rest
+- Webflux Spring Reactive Web
 - Postman https://www.postman.com/ para testes de serviço
+- IntelliJ IDEA Community https://www.jetbrains.com/pt-br/idea/download/
 ---
 # Passos na criação do projeto
 Dependências springboot https://start.spring.io/
@@ -25,7 +26,7 @@ adicionado seguinte plugin:
 1. branco - localização no projeto do arquivo swagger (yaml) com estrutura openapi 3 (definição dos endpoints e schemas)
 2. verde - diretório de construção, onde será salvo a saída do código gerado dentro do target
 3. azul - nome do diretório onde serão salvos os controllers (endpoints na definição swagger)
-4. laranja - nome do diretório onde serão salvos os models (schemas ou entidades na definiçaõ swagger)
+4. laranja - nome do diretório onde serão salvos os models (schemas ou entidades na definição swagger)
 
 dependências annotations e validations:
 
