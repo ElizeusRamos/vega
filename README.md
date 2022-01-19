@@ -9,13 +9,13 @@ Esta api consome dados da api externa [PokeApi](https://pokeapi.co/docs/v2) e re
 - [Swagger (codegen)](https://swagger.io/docs/open-source-tools/swagger-codegen/)
 - [Springboot](https://start.spring.io/) para criação do projeto base
 - Webflux Spring Reactive Web
-- [Postman](https://www.postman.com/ para testes de serviço)
+- [Postman](https://www.postman.com/) para testes de serviço
 - [IntelliJ IDEA Community](https://www.jetbrains.com/pt-br/idea/download/)
 ---
 # Passos na criação do projeto
 [Dependências springboot](https://start.spring.io/)
 
-![dependencias-springinitial](https://user-images.githubusercontent.com/83174570/150145540-ce79653a-be87-41f1-a169-072b6c459054.png)
+![dependencias-springinitial](https://user-images.githubusercontent.com/83174570/150188656-6c1691db-5fc6-4d40-90c6-8424c06336fc.png)
 
 # Dependências Maven e arquivo pom.xml
 adicionado seguinte plugin:
@@ -48,6 +48,10 @@ Iremos utilizar a API pública [PokeApi](https://pokeapi.co/api/v2), como se tra
 ![organizacao-projeto](https://user-images.githubusercontent.com/83174570/150166643-da6736ec-264b-42b7-a4f0-d8bc3d900138.png)
 
 - Após criar nosso documento swagger.yaml salvamos ele no nosso diretório resources, rodamos então o comando '''mvn clean compile'''. É necessário ter configurado o maven em sua máquina ou se utilizando o IntelliJ IDEA usar o terminal de comandos para maven. Tendo executado o comando é esperado que tenham sido criados os pacotes, classes e interface controller.
+
+![api-gerada](https://user-images.githubusercontent.com/83174570/150184487-bb2c2bd1-331c-451e-a1b4-582a40aecdd0.png)
+Api gerada é uma interface com os annotations necessários nas requisições rest, podemos implementar seus métodos em um controller, e faremos isto no diretório controller criado anteriormente.
+
 
 ---
 # Como utilizar o projeto
