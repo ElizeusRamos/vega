@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class PokemonController implements PokemonApi, DefaultApi {
+
     @Override
     public ResponseEntity<PokemonDto> findAllPokemons() {
         return null;
@@ -16,6 +17,7 @@ public class PokemonController implements PokemonApi, DefaultApi {
 
     @Override
     public ResponseEntity<PokemonDto> findPokemonById(Long id) {
+
         return null;
     }
 
