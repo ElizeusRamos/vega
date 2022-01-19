@@ -9,7 +9,7 @@ Esta api consome dados da api externa [PokeApi](https://pokeapi.co/docs/v2) e re
 - [Swagger (codegen)](https://swagger.io/docs/open-source-tools/swagger-codegen/)
 - [Springboot](https://start.spring.io/) para criação do projeto base
 - Webflux Spring Reactive Web
-- [Postman](https://www.postman.com/ para testes de serviço)
+- [Postman](https://www.postman.com/) para testes de serviço
 - [IntelliJ IDEA Community](https://www.jetbrains.com/pt-br/idea/download/)
 ---
 # Passos na criação do projeto
