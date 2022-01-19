@@ -52,5 +52,6 @@ Iremos utilizar a API pública [PokeApi](https://pokeapi.co/api/v2), como se tra
 ![api-gerada](https://user-images.githubusercontent.com/83174570/150184487-bb2c2bd1-331c-451e-a1b4-582a40aecdd0.png)
 Api gerada é uma interface com os annotations necessários nas requisições rest, podemos implementar seus métodos em um controller, e faremos isto no diretório controller criado anteriormente.
 
+
 ---
 # Como utilizar o projeto
