@@ -11,6 +11,11 @@ Esta api consome dados da api externa PokeApi
 - Webflux
 - Estruturação Rest
 - Postman https://www.postman.com/ para testes de serviço
+---
+# Passos na criação do projeto
+Dependências springboot https://start.spring.io/
+
+![dependencias-springinitial](https://user-images.githubusercontent.com/83174570/150145540-ce79653a-be87-41f1-a169-072b6c459054.png)
 
 
 ---
