@@ -15,7 +15,7 @@ Esta api consome dados da api externa [PokeApi](https://pokeapi.co/docs/v2) e re
 # Passos na criação do projeto
 [Dependências springboot](https://start.spring.io/)
 
-![dependencias-springinitial](https://user-images.githubusercontent.com/83174570/150145540-ce79653a-be87-41f1-a169-072b6c459054.png)
+![dependencias-springinitial](https://user-images.githubusercontent.com/83174570/150188656-6c1691db-5fc6-4d40-90c6-8424c06336fc.png)
 
 # Dependências Maven e arquivo pom.xml
 adicionado seguinte plugin:
