@@ -49,5 +49,8 @@ Iremos utilizar a API pública [PokeApi](https://pokeapi.co/api/v2), como se tra
 
 - Após criar nosso documento swagger.yaml salvamos ele no nosso diretório resources, rodamos então o comando '''mvn clean compile'''. É necessário ter configurado o maven em sua máquina ou se utilizando o IntelliJ IDEA usar o terminal de comandos para maven. Tendo executado o comando é esperado que tenham sido criados os pacotes, classes e interface controller.
 
+![api-gerada](https://user-images.githubusercontent.com/83174570/150184487-bb2c2bd1-331c-451e-a1b4-582a40aecdd0.png)
+Api gerada é uma interface com os annotations necessários nas requisições rest, podemos implementar seus métodos em um controller, e faremos isto no diretório controller criado anteriormente.
+
 ---
 # Como utilizar o projeto
