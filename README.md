@@ -34,7 +34,7 @@ dependências annotations e validations:
 ---
 # Conhecendo a API Client e seus dados
 Iremos utilizar a API pública https://pokeapi.co/api/v2, como se trata de uma API bastante completa e repleta de dados dos mais variados referentes ao mundo de Pokémon, iremos nos limitar a utilizar apenas os dados referentes as espécies de pokémons https://pokeapi.co/api/v2/pokemon.
-- objeto json de referência
+- objeto json de referência https://pokeapi.co/api/v2/pokemon/1
 
 ![pokemon-objeto-resumido-json](https://user-images.githubusercontent.com/83174570/150155471-69654599-650b-4269-ac03-36f8b59c6bb9.png)
 
