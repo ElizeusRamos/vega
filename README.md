@@ -38,9 +38,17 @@ Iremos utilizar a API pública https://pokeapi.co/api/v2, como se trata de uma A
 
 ![pokemon-objeto-resumido-json](https://user-images.githubusercontent.com/83174570/150155471-69654599-650b-4269-ac03-36f8b59c6bb9.png)
 ---
-# Construindo o arquivo swagger.yaml
-acessar o endereço: https://editor.swagger.io/ nele podemos codificar com o intellisense do yaml para swagger, é possível salvar diretamente o projeto do swagger e criar server ou client com a documentação, porém neste projeto não o iremos utilizar desta maneira.
+# Construindo o arquivo swagger
 
+
+- Acessar o endereço: https://editor.swagger.io/ nele podemos codificar com o intellisense do yaml para swagger, é possível salvar diretamente o projeto do swagger e criar server ou client com a documentação, porém neste projeto não o iremos utilizar desta maneira.
+---
+# Organização do nosso projeto
+- Criamos os diretórios: client, controller e service
+
+![organizacao-projeto](https://user-images.githubusercontent.com/83174570/150166643-da6736ec-264b-42b7-a4f0-d8bc3d900138.png)
+
+- Após criar nosso documento swagger.yaml salvamos ele no nosso diretório resources, rodamos então o comando '''mvn clean compile'''. É necessário ter configurado o maven em sua máquina ou se utilizando o IntelliJ IDEA usar o terminal de comandos para maven. Tendo executado o comando é esperado que tenham sido criados os pacotes, classes e interface controller.
 
 ---
 # Como utilizar o projeto
