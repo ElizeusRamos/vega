@@ -37,6 +37,9 @@ Iremos utilizar a API pública https://pokeapi.co/api/v2, como se trata de uma A
 - objeto json de referência https://pokeapi.co/api/v2/pokemon/1
 
 ![pokemon-objeto-resumido-json](https://user-images.githubusercontent.com/83174570/150155471-69654599-650b-4269-ac03-36f8b59c6bb9.png)
+---
+# Construindo o arquivo swagger.yaml
+acessar o endereço: https://editor.swagger.io/ nele podemos codificar com o intellisense do yaml para swagger, é possível salvar diretamente o projeto do swagger e criar server ou client com a documentação, porém neste projeto não o iremos utilizar desta maneira.
 
 
 ---
